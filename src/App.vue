@@ -2,6 +2,8 @@
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <LandingPage msg="Welcome to Your Vue.js App"/>
+    <router-view/>
+    
   </div>
 </template>
 
@@ -17,10 +19,6 @@ export default {
 </script>
 
 <style>
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

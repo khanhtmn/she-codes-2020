@@ -1,11 +1,14 @@
 <template>
   <div>
     <footer>
-      <div>
-        <div class="section-left">
-          <h3 class="text-6xl">VietVax</h3>
-          <p>Ứng dụng quản lý hồ sơ tiêm phòng Việt Nam</p>
-          <p>©2020 VietVax</p>
+      <div class="main">
+        <div class="logo-left">
+          <img alt="Logo" src="../assets/Logo.svg">
+          <div class="section-left">
+            <h3>VietVax</h3>
+            <p>Ứng dụng quản lý hồ sơ tiêm phòng Việt Nam</p>
+            <p>©2020 VietVax</p>
+          </div>
         </div>
         <div class="section-right">
           <div class="contact">Liên hệ & Hỗ trợ</div>
@@ -30,11 +33,23 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+img {
+  height: 30px;
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
 .section-left {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin: 0px 20px 20px 0px;
+}
+
+.logo-left {
+  display: flex;
+  flex-direction: row;
+  padding-left: 60px;
 }
 
 .section-right {
@@ -67,6 +82,17 @@ export default {
 
 p {
   margin: 0px 0px 0px 0px;
+  padding-bottom: 10px;
 }
 
+h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 </style>
