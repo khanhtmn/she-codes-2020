@@ -6,7 +6,7 @@
         <h1>VietVax</h1>
       </div>
       <div id="text">
-          <router-link to="/home" class="btn">Trang chủ</router-link>
+          <router-link to="/" class="btn">Trang chủ</router-link>
           <router-link to="/profile" class="btn main">Hồ sơ của bạn</router-link>
           <router-link to="/rec" class="btn">Gợi ý tiêm chủng cá nhân</router-link>
           <router-link to="/blog" class="btn">Blog</router-link>
@@ -15,11 +15,27 @@
     </header>
     <body>
       <div class="main-rec">
-        <div class="text-body">
-          <h2>VietVax cho một Việt Nam khoẻ mạnh</h2>
-          <p>VietVax giúp toàn dân và chính phủ Việt Nam quản lý lịch sử tiêm chủng, đưa ra khuyến nghị và giáo dục về tiêm phòng.</p>
+        <div class="left-profile">
+          <img class="img2" src="../assets/user profile.svg" alt="User avatar">
+          <p class="name"><strong>Nguyễn Hiếu Ngân</strong></p>
+          <div class="basic-info">
+            <p><strong>Ngày sinh:</strong> 01/08/2001</p>
+            <p><strong>Giới tính:</strong> Nữ</p>
+            <p><strong>Địa chỉ:</strong> 10 Thành Thái, Quận 10, TP.HCM</p>
+            <p><strong>Email:</strong> ngannguyen@gmail.com</p>
+            <p><strong>SĐT:</strong> 0374651776</p>
+          </div>
         </div>
-        <img src="../assets/Rectangle 20.svg" alt="human-background">
+        <div class="vaccine-info">
+          <img class="img3" src="../assets/Rectangle 22.svg" alt="background"><img class="img4" src="../assets/Rectangle 21.svg" alt="background">
+          <div class="row">
+            <p>Lần 1</p>
+            <p>Lần 2</p>
+            <p>Lần 3</p>
+            <p>Lần 4</p>
+            <p>Lần 5</p>
+          </div>
+        </div>
       </div>
       <Footer/>
     </body>
@@ -93,52 +109,71 @@ h1 {
   padding: 9px 15px 9px 15px;
 }
 
-.main-rec {
-  width: 100%;
-  height: 530px;
-  background-image:
-      url(https://imgur.com/q9Hq3Ro),
-      linear-gradient(63.78deg, #9BC4CB 10.31%, #001C55 95.64%);
-  background-position:
-      left,
-      right;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.text-body {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  justify-content: center;
-}
-
-h2 {
-  width: 577px;
-  font-family: EB Garamond;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 63px;
-  color: #000000;
-  margin: 0px 0px 25px 0px;
-  text-align: left;
-}
-
-p {
-  width: 500px;
-  font-family: EB Garamond;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 27px;
-  line-height: 35px;
-  margin: 0px;
-  text-align: left;
-  color: #000000;
-}
-
 .main {
   font-weight: bold;
+}
+
+/*
+
+*/
+
+.img2 {
+  width: 170px;
+}
+
+.left-profile {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 40px 40px 100px;
+}
+
+.name {
+  font-family: EB Garamond;
+  font-style: normal;
+  font-size: 23px;
+  line-height: 30px;
+
+  color: #000000;
+  padding: 20px 0px 20px 0px;
+}
+
+.basic-info {
+  width: 300px;
+  font-family: EB Garamond;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #000000;
+}
+
+.main-rec {
+  display: flex;
+  flex-direction: row;
+}
+
+.img3 {
+  width: 80vw;
+  padding-left: 40px;
+}
+
+.img4 {
+  width: 80vw;
+  padding-top: -5px;
+  /* margin-top: -5px; */
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  justify-content: space-evenly;
+  font-family: EB Garamond;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 30px;
+  /* color: #FFFFFF; */
+  color: #000000;
 }
 </style>

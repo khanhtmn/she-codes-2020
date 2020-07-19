@@ -10,7 +10,7 @@
           <router-link to="/profile" class="btn">Hồ sơ của bạn</router-link>
           <router-link to="/rec" class="btn">Gợi ý tiêm chủng cá nhân</router-link>
           <router-link to="/blog" class="btn">Blog</router-link>
-        <router-link to="/blog" class="blue-btn">Đăng nhập</router-link>
+        <router-link to="/login" class="blue-btn">Đăng nhập</router-link>
       </div>
     </header>
     <body>
@@ -30,7 +30,7 @@
 import Footer  from './Footer.vue';
 
 export default {
-  name: 'LandingPage',
+  name: 'Home',
   props: {
     msg: String
   },
