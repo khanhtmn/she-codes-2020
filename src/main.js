@@ -4,6 +4,7 @@ import '@/assets/css/tailwind.css'
 import VueRouter from 'vue-router'
 import Home from './components/Home.vue'
 import Profile from './components/Profile.vue';
+import Rec from './components/Rec.vue';
 
 Vue.use(VueRouter)
 
@@ -18,6 +19,11 @@ const router = new VueRouter({
       path: '/profile',
       name: 'Profile',
       component: Profile,
+    },
+    {
+      path: '/rec',
+      name: 'Rec',
+      component: Rec,
     }
   ]
 })

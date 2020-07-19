@@ -27,14 +27,8 @@
           </div>
         </div>
         <div class="vaccine-info">
-          <img class="img3" src="../assets/Rectangle 22.svg" alt="background"><img class="img4" src="../assets/Rectangle 21.svg" alt="background">
-          <div class="row">
-            <p>Lần 1</p>
-            <p>Lần 2</p>
-            <p>Lần 3</p>
-            <p>Lần 4</p>
-            <p>Lần 5</p>
-          </div>
+          <img class="img5" src="../assets/Table record.svg" alt="table.record">
+          <!-- <img class="img3" src="../assets/Rectangle 22.svg" alt="background"><img class="img4" src="../assets/Rectangle 21.svg" alt="background"> -->
         </div>
       </div>
       <Footer/>
@@ -43,6 +37,7 @@
 </template>
 
 <script>
+// import Table from './Table.vue'
 import Footer  from './Footer.vue';
 
 export default {
@@ -163,11 +158,16 @@ h1 {
   /* margin-top: -5px; */
 }
 
+.img5 {
+  width: 70wh;
+}
+
 .row {
   display: flex;
   flex-direction: row;
-  width: 80vw;
-  justify-content: space-evenly;
+  width: 60vw;
+  justify-content: space-between;
+  align-items: flex-end;
   font-family: EB Garamond;
   font-style: normal;
   font-weight: bold;

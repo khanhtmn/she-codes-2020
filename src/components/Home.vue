@@ -6,7 +6,7 @@
         <h1>VietVax</h1>
       </div>
       <div id="text">
-          <router-link to="/home" class="btn main">Trang chủ</router-link>
+          <router-link to="/" class="btn main">Trang chủ</router-link>
           <router-link to="/profile" class="btn">Hồ sơ của bạn</router-link>
           <router-link to="/rec" class="btn">Gợi ý tiêm chủng cá nhân</router-link>
           <router-link to="/blog" class="btn">Blog</router-link>

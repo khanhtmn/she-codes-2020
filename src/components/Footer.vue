@@ -34,7 +34,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 img {
-  height: 30px;
+  height: 50px;
   padding-top: 15px;
   padding-right: 10px;
 }
