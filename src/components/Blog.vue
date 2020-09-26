@@ -6,9 +6,9 @@
         <h1>VietVax</h1>
       </div>
       <div id="text">
-          <router-link to="/" class="btn">Trang chủ</router-link>
-          <router-link to="/profile" class="btn">Hồ sơ của bạn</router-link>
-          <router-link to="/rec" class="btn">Gợi ý tiêm chủng cá nhân</router-link>
+          <router-link to="/" class="btn">Homepage</router-link>
+          <router-link to="/profile" class="btn">Your profile</router-link>
+          <router-link to="/rec" class="btn">Vaccination recommendation</router-link>
           <router-link to="/blog" class="btn main">Blog</router-link>
           <router-link to="/login"><img src="../assets/user profile.svg" alt="Avatar"></router-link>
       </div>
@@ -17,29 +17,29 @@
       <div class="photo">
         <div class="blog-photo">
           <img src="../assets/Rectangle 40.svg" alt="image">
-          <p style="margin: 20px 10px 0px 10px;">Xử lý phản ứng phụ sau khi tiêm vaccine cho trẻ</p>
+          <p style="margin: 20px 10px 0px 10px;">Handling side effects from vaccination for children</p>
         </div>
         <div class="blog-photo">
           <img src="../assets/Rectangle 41.svg" alt="image">
-          <p style="margin: 20px 10px 0px 10px;">Cần kiểm tra vaccine như thế nào trước khi tiêm?</p>
+          <p style="margin: 20px 10px 0px 10px;">How to check for the recommended vaccines?</p>
         </div>
         <div class="blog-photo">
           <img src="../assets/Rectangle 42.svg" alt="image">
-          <p style="margin: 20px 10px 0px 10px;">Vaccine HPV có còn tác dụng nếu bạn nữ đã quan hệ tình dục?</p>
+          <p style="margin: 20px 10px 0px 10px;">When should we take HPV vaccination?</p>
         </div>
       </div>
       <div class="photo">
         <div class="blog-photo">
           <img src="../assets/Rectangle 43.svg" alt="image">
-          <p style="color: white">Xử lý phản ứng phụ sau khi tiêm vaccine cho trẻ</p>
+          <p style="color: white">Handling side effects from vaccination for children</p>
         </div>
         <div class="blog-photo">
           <img src="../assets/Rectangle 44.svg" alt="image">
-          <p style="color: white">Cần kiểm tra vaccine như thế nào trước khi tiêm?</p>
+          <p style="color: white">How to check for the recommended vaccines?</p>
         </div>
         <div class="blog-photo">
           <img src="../assets/Rectangle 45.svg" alt="image">
-          <p style="color: white">Vaccine HPV có còn tác dụng nếu bạn nữ đã quan hệ tình dục?</p>
+          <p style="color: white">When should we take HPV vaccination?</p>
         </div>
       </div>
       <Footer/>

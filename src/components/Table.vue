@@ -3,15 +3,15 @@
     <table>
       <tr class="row">
         <th></th>
-        <th>Lần 1</th>
-        <th>Lần 2</th>
+        <th>First shot</th>
+        <th>Second shot</th>
       </tr>
       <tr class="row">
-        <td>Bênh sởi</td>
+        <td>Measles</td>
         <td>12/2001</td>
         <td>Placeholder</td>
       <tr class="row">
-        <td>Bệnh dại</td>
+        <td>Rabies</td>
         <td>8/2005</td>
         <td>Placeholder</td>
       </tr>
@@ -21,12 +21,12 @@
         <td>Placeholder</td>
       </tr>
       <tr class="row">
-        <td>Viêm gan A</td>
+        <td>Hepatitis A</td>
         <td>Placeholder</td>
         <td>Placeholder</td>
       </tr>
       <tr class="row">
-        <td>Viêm gan B</td>
+        <td>Hepatitis B</td>
         <td>Placeholder</td>
         <td>Placeholder</td>
       </tr>

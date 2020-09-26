@@ -6,31 +6,31 @@
         <h1>VietVax</h1>
       </div>
       <div id="text">
-          <router-link to="/" class="btn">Trang chủ</router-link>
-          <router-link to="/profile" class="btn">Hồ sơ của bạn</router-link>
-          <router-link to="/rec" class="btn main">Gợi ý tiêm chủng cá nhân</router-link>
+           <router-link to="/" class="btn">Homepage</router-link>
+          <router-link to="/profile" class="btn">Your profile</router-link>
+          <router-link to="/rec" class="btn">Vaccination recommendation</router-link>
           <router-link to="/blog" class="btn">Blog</router-link>
         <router-link to="/blog"><img src="../assets/user profile.svg" alt="Avatar"></router-link>
       </div>
     </header>
     <body>
       <div class="top">
-        <h3>Bộ lọc</h3>
-          <p class="green-box">Thời gian: 1 tháng tới</p>
-          <p class="green-box"  > Đi du lịch tới: N/A</p>
+        <h3>Filter</h3>
+          <p class="green-box">Time: Next 1 month</p>
+          <p class="green-box"> Travel destination: N/A</p>
       </div>
       <div class="middle">
           <div id="box-1">
               <!-- <img src="../assets/Rectangle 28.svg" alt="rectangle"> -->
-            <p style="margin: 20px 20px;">Khuyến nghị nếu đang trong đội tuổi tiêm chủng vaccine này, chưa tiêm hoặc không còn giấy xác nhận đã tiêm</p>
+            <p style="margin: 20px 20px;">Recommended for those within this age range, haven't taken yet or lost track of this vaccination record</p>
           </div>
           <div id="box-2">
             <!-- <img src="../assets/Rectangle 30.svg" alt="rectangle"> -->
-            <p style="margin: 20px 20px;">Khuyến nghị vaccine này với tiền sử bệnh án cá nhân</p>
+            <p style="margin: 20px 20px;">Recommended based on medical record</p>
           </div>
           <div id="box-3">
             <!-- <img src="../assets/Rectangle 32.svg" alt="rectangle"> -->
-            <p style="margin: 20px 20px;">Khuyến nghị vaccine này dựa trên tham khảo y khoa với chuyên gia</p>
+            <p style="margin: 20px 20px;">Recommended based on vaccination specialist</p>
           </div>
       </div>
       <Footer/>

@@ -6,18 +6,18 @@
         <h1>VietVax</h1>
       </div>
       <div id="text">
-          <router-link to="/" class="btn main">Trang chủ</router-link>
-          <router-link to="/profile" class="btn">Hồ sơ của bạn</router-link>
-          <router-link to="/rec" class="btn">Gợi ý tiêm chủng cá nhân</router-link>
+           <router-link to="/" class="btn">Homepage</router-link>
+          <router-link to="/profile" class="btn">Your profile</router-link>
+          <router-link to="/rec" class="btn">Vaccination recommendation</router-link>
           <router-link to="/blog" class="btn">Blog</router-link>
-        <router-link to="/login" class="blue-btn">Đăng nhập</router-link>
+        <router-link to="/login" class="blue-btn">Log in</router-link>
       </div>
     </header>
     <body>
       <div class="main-rec">
         <div class="text-body">
-          <h2>VietVax cho một Việt Nam khoẻ mạnh</h2>
-          <p>VietVax giúp toàn dân và chính phủ Việt Nam quản lý lịch sử tiêm chủng, đưa ra khuyến nghị và giáo dục về tiêm phòng.</p>
+          <h2>VietVax for a healthy Vietnam</h2>
+          <p>VietVax helps Vietnamese to manage their vaccination record, receive personalized recommendation, and be informed about vaccination.</p>
         </div>
         <img src="../assets/Rectangle 20.svg" alt="human-background">
       </div>

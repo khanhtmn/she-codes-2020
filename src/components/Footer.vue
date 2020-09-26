@@ -6,14 +6,14 @@
           <img alt="Logo" src="../assets/Logo.svg">
           <div class="section-left">
             <h3>VietVax</h3>
-            <p>Ứng dụng quản lý hồ sơ tiêm phòng Việt Nam</p>
+            <p>An application to manage vaccination record for Vietnam</p>
             <p>©2020 VietVax</p>
           </div>
         </div>
         <div class="section-right">
-          <div class="contact">Liên hệ & Hỗ trợ</div>
+          <div class="contact">Contact us at</div>
           <div class="info">
-            <p>Email: hotro@vietvax.com</p>
+            <p>Email: support@vietvax.com</p>
             <p>Hotline: 1900 1696</p>
           </div>
         </div>

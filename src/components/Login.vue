@@ -8,16 +8,16 @@
     </header>
     <body>
       <div class="btn">
-        <p class="purple">Bạn là</p>
+        <p class="purple">You are</p>
       </div>
         <div class="inp">
           <div class="btn">
-              <p class="purple">Tên đăng nhập</p>
+              <p class="purple">Username</p>
           </div>
         <input type="text" style="border: black">
         </div>
       <div class="btn">
-        <p class="purple">Mật khẩu</p>
+        <p class="purple">Password</p>
       </div>
     </body>
   </div>
