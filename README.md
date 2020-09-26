@@ -1,5 +1,18 @@
 # shecodes-2020
 
+Hackathon project: A web app to keep track personal record of vaccination 
+
+Teck stack: Vue.js, HTML/CSS
+
+Pages: 
+- Homepage
+- Your profile
+- Vaccination recommendation
+- Blog
+- Log in
+
+Note: Full functionalies are still under development. We hope to make the web app for both individual and management level, with the management level to be hospitals or vaccination centers who need to keep track of their patients. Fhttps://www.figma.com/file/DLsLwryY1GkajNq3QhizMd/Vaccination-tracking-app?node-id=1%3A3
+
 ## Project setup
 ```
 yarn install
