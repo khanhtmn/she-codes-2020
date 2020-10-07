@@ -1,6 +1,8 @@
 # shecodes-2020
 
-Hackathon project: A web app to keep track personal record of vaccination 
+Hackathon project: A web app to keep track personal record of vaccination
+
+https://she-codes-2020.herokuapp.com/#/
 
 Teck stack: Vue.js, HTML/CSS
 
